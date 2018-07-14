@@ -24,7 +24,6 @@ for i in range(0,100):
         username = name + str(i) + str(grade)
     else:
         username = name + '0' + str(i) + str(grade)
-    #print(username)
     
     url = 'http://202.98.18.57:18080/webservice/m/api/proxy'
     data = 'link=http://ip.jlu.edu.cn/pay/interface_mobile.php&mail=' + username + '&menu=get_mail_info' 
