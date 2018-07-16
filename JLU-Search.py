@@ -5,12 +5,6 @@ __author__ = 'MICROYU'
 
 import json
 import requests
-import time
-
-#get cookie
-login_url = 'http://202.98.18.57:18080/webservice/m/api/token/v2'
-req = requests.post(login_url)
-cookies = req.headers.get('Set-Cookie')
 
 grade = input('Please input grade (default 16):')
 if (not grade):
