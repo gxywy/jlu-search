@@ -1,4 +1,4 @@
-# JLU-Search
+# jlu-search
 > For technical research use only, do not use it for illegal purposes, otherwise the author is not responsible for the consequences.
 
 Ussage:
